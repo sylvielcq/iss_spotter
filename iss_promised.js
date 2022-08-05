@@ -10,7 +10,7 @@ const fetchMyIP = function() {
   return request('https://api.ipify.org?format=json');
 };
 //-----------------------------------------------------------------------------------
-/* 
+/*
  * Makes a request to ipwho.is using the provided IP address to get its geographical information (latitude/longitude)
  * Input: JSON string containing the IP address
  * Returns: Promise of request for lat/lon
@@ -31,7 +31,7 @@ const fetchISSFlyOverTimes = function(body) {
   return request(url);
 };
 //-------------------------------------------------------------------------------------
-/* 
+/*
  * Input: None
  * Returns: Promise for fly over data for users location
  */
